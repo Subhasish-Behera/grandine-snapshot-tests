@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 8862
+content-length: 11678
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -245,13 +245,93 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "64",
-      "block_root": "0xbd4c07fee07639b4e4fdc30cca29fa81d8d4a6c34d8dfd26bc411295c3b0fe6e",
+      "block_root": "0x9e590fd629e9cfa1a819166750d4637f0834071ebee1151733652f49bfda12b8",
       "parent_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "0",
       "validity": "optimistic",
       "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000040"
+    },
+    {
+      "slot": "65",
+      "block_root": "0x1f8d24cb3c9299f1fee857d2a8b2eb0148b9df31c1e1473d8286694d4cde617f",
+      "parent_root": "0x9e590fd629e9cfa1a819166750d4637f0834071ebee1151733652f49bfda12b8",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000041"
+    },
+    {
+      "slot": "66",
+      "block_root": "0x570696b9b64f1ff487edef26a407bc289acaec7ef6e1d59845e2442440206431",
+      "parent_root": "0x1f8d24cb3c9299f1fee857d2a8b2eb0148b9df31c1e1473d8286694d4cde617f",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000042"
+    },
+    {
+      "slot": "67",
+      "block_root": "0x7d0db498d76c586abaf48112d3051ba1fc9c7858cac372e34bd8d3f6243a7e40",
+      "parent_root": "0x570696b9b64f1ff487edef26a407bc289acaec7ef6e1d59845e2442440206431",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000043"
+    },
+    {
+      "slot": "68",
+      "block_root": "0x13d04e308f56ea27a907570d00d65637f545380c1646db1d22b814e06782c0fb",
+      "parent_root": "0x7d0db498d76c586abaf48112d3051ba1fc9c7858cac372e34bd8d3f6243a7e40",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000044"
+    },
+    {
+      "slot": "69",
+      "block_root": "0x169892edd7f6c3fc58019c195453828625e49ad82e2aba885abc87b05c6a2ca3",
+      "parent_root": "0x13d04e308f56ea27a907570d00d65637f545380c1646db1d22b814e06782c0fb",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000045"
+    },
+    {
+      "slot": "70",
+      "block_root": "0xc613119e683ec21e11c38dcbdf450532eef64bf9ce56bfbc723a4f8b6b3c3de5",
+      "parent_root": "0x169892edd7f6c3fc58019c195453828625e49ad82e2aba885abc87b05c6a2ca3",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000046"
+    },
+    {
+      "slot": "71",
+      "block_root": "0xcc334b6873cb25ce18de7c2bdb539008ba810b130f2ee39ea81aa77ed767ec27",
+      "parent_root": "0xc613119e683ec21e11c38dcbdf450532eef64bf9ce56bfbc723a4f8b6b3c3de5",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000047"
+    },
+    {
+      "slot": "72",
+      "block_root": "0x7e95375016128dd60aa7263e14a099a5e28202e1b9e626296f34c7c2f28199ee",
+      "parent_root": "0xcc334b6873cb25ce18de7c2bdb539008ba810b130f2ee39ea81aa77ed767ec27",
+      "justified_epoch": "6",
+      "finalized_epoch": "5",
+      "weight": "0",
+      "validity": "optimistic",
+      "execution_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000048"
     }
   ]
 }

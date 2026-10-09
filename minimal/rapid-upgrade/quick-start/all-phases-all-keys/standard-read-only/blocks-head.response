@@ -1,18 +1,18 @@
 HTTP/1.0 200 OK
 content-type: application/json
-eth-consensus-version: gloas
-content-length: 2436
+eth-consensus-version: heze
+content-length: 2465
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
   "data": {
     "message": {
-      "slot": "64",
-      "proposer_index": "54",
-      "parent_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
-      "state_root": "0x878afa6a7cdeeaa29c619c20d70d0901f5a7cd6b0dfd060572230d948dfce3f2",
+      "slot": "72",
+      "proposer_index": "6",
+      "parent_root": "0xcc334b6873cb25ce18de7c2bdb539008ba810b130f2ee39ea81aa77ed767ec27",
+      "state_root": "0xd13410862747e6210753d43a560b3eed97df0eae6125b96402ef7a35e225b1b3",
       "body": {
-        "randao_reveal": "0xb5c6b4b7d05f9e8ae27acfbe654a34af05bb1395c59fb54bee6b7bc18b5889c3ab9ebac12e6eebdfb9fe80e5355dad6c0c1b852177bfad2665087fcc7ef8dd02b58c6c2748d39d79eeddac810401bcb63e9a45cfbcb04832b154eb93d208db85",
+        "randao_reveal": "0x8885e60f708afa7927ab638414a5986ff7f61d9e796d06f0ea877186bf6b00cb9375a25c9d2216c91e009d356335f813199070e13e21e256e5ba29ce078c4e693531aeece8d84e814311ad44278ab37013b34bbc2af1c2d9834db82e4a2f9f7e",
         "eth1_data": {
           "deposit_root": "0x6141b76179b67d7849f34a22d0e529729fb274bbe81374c41623373b649cc63b",
           "deposit_count": "64",
@@ -26,23 +26,24 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         "voluntary_exits": [],
         "sync_aggregate": {
           "sync_committee_bits": "0xffffffff",
-          "sync_committee_signature": "0x918ab0d802bb51da7e579821ed25b521235612c3e8e0c1a2414791ca8c3551fbd5e1beb08d29380ac48c98723b29753119983ab9406194c2b53663dd138706f6b60365132e6a953108aa156e2f04da6bcfee0494e63f07ed863195fbb75b3397"
+          "sync_committee_signature": "0x86148f038aacdafabe42931302ab63167cfe14fbc2d5a297bce229cd955b5c5e3ba77e84ff44041a7d526d69e7e8648d0a26f9829db1176b8b32a24a8cb42e38f82f30315dfd7cd38d110552828c2b831bfcadeea6f62e5e1f587bcc6b2c7a3b"
         },
         "bls_to_execution_changes": [],
         "signed_execution_payload_bid": {
           "message": {
             "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "parent_block_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
-            "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000040",
-            "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
+            "parent_block_root": "0xcc334b6873cb25ce18de7c2bdb539008ba810b130f2ee39ea81aa77ed767ec27",
+            "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000048",
+            "prev_randao": "0xc1bdeda4ca5688434e6de75553ac359e6f5c15f406d12e1f3ac573d17b227eef",
             "fee_recipient": "0x0000000000000000000000000000000000000000",
             "gas_limit": "0",
             "builder_index": "18446744073709551615",
-            "slot": "64",
+            "slot": "72",
             "value": "0",
             "execution_payment": "0",
             "blob_kzg_commitments": [],
-            "execution_requests_root": "0x87b69a306c8e430d0857f7c4ac5e27cecffa1108d43c2e5df7388056fea7a423"
+            "execution_requests_root": "0x87b69a306c8e430d0857f7c4ac5e27cecffa1108d43c2e5df7388056fea7a423",
+            "inclusion_list_bits": "0x0000"
           },
           "signature": "0xc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
@@ -56,9 +57,9 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         }
       }
     },
-    "signature": "0x9185447c5f51f414c2f58a5e4200273255db3595752adacd6ee9195e3c09836203efab4a49a8db9759f5ea7bcc00e2b617a97b26a1e16941373816bc414c3b2a1d4470f0ec33f08d9dc46f41809ee250e542361e4cde885c8b781c783d1d1881"
+    "signature": "0x8578b7adb0a734ef86334e79804a4bb44161c2849e3f068b06a0477c9bf5c8a1a25746dbfc6610263d6c7b7ace7e64eb0b033b1bf1e98cf9bb2dbb355ae3a15f21cf289a535cd79c6659e89b5af001c398048af01f0b3a25bbbe5b80d95381e6"
   },
-  "version": "gloas",
+  "version": "heze",
   "execution_optimistic": true,
   "finalized": false
 }
